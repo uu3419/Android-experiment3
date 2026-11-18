@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">实验3 Android界面组件</string>
+
+    <string name="task1_title">1. ListView 用法</string>
+    <string name="task2_title">2. 自定义 AlertDialog</string>
+    <string name="task3_title">3. XML 定义菜单</string>
+    <string name="task4_title">4. ActionMode 上下文菜单</string>
+    <string name="task5_title">5. RecyclerView 列表</string>
+
+    <string name="lab_title">Android 界面组件实验</string>
+    <string name="lab_subtitle">请选择要演示的实验内容：</string>
+
+    <string name="task1_desc">SimpleAdapter 列表（图片 + 名称）、Toast 与通知</string>
+    <string name="task2_desc">AlertDialog.Builder.setView() 自定义登录框</string>
+    <string name="task3_desc">XML 菜单：字体大小 / 普通菜单项 / 字体颜色</string>
+    <string name="task4_desc">列表长按进入 ActionMode，多选删除</string>
+    <string name="task5_desc">RecyclerView + Adapter + ViewHolder 卡片列表</string>
+
+    <string name="task1_header">动物列表（SimpleAdapter）</string>
+    <string name="task2_open_dialog">打开自定义对话框</string>
+    <string name="task3_test_text">用于测试的内容</string>
+    <string name="task4_header">长按列表项进入上下文操作模式</string>
+    <string name="task5_add">增加一条记录</string>
+
+    <string name="dialog_title">ANDROID APP</string>
+    <string name="dialog_username">Username</string>
+    <string name="dialog_password">Password</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_signin">Sign in</string>
+
+    <string name="menu_font_size">字体大小</string>
+    <string name="menu_normal">普通菜单项</string>
+    <string name="menu_font_color">字体颜色</string>
+    <string name="font_small">小</string>
+    <string name="font_medium">中</string>
+    <string name="font_large">大</string>
+    <string name="color_red">红色</string>
+    <string name="color_black">黑色</string>
+    <string name="normal_menu_toast">你点击了普通菜单项</string>
+
+    <string name="action_delete">删除</string>
+    <string name="animal_lion">Lion</string>
+    <string name="animal_tiger">Tiger</string>
+    <string name="animal_monkey">Monkey</string>
+    <string name="animal_dog">Dog</string>
+    <string name="animal_cat">Cat</string>
+    <string name="animal_elephant">Elephant</string>
+</resources>

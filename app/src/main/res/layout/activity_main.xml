@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lab_title"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#212121" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/lab_subtitle"
+            android:textSize="14sp"
+            android:textColor="#757575" />
+
+        <Button
+            android:id="@+id/btn_task1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/task1_title"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/task1_desc"
+            android:textSize="12sp"
+            android:textColor="#757575" />
+
+        <Button
+            android:id="@+id/btn_task2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/task2_title"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/task2_desc"
+            android:textSize="12sp"
+            android:textColor="#757575" />
+
+        <Button
+            android:id="@+id/btn_task3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/task3_title"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/task3_desc"
+            android:textSize="12sp"
+            android:textColor="#757575" />
+
+        <Button
+            android:id="@+id/btn_task4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/task4_title"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/task4_desc"
+            android:textSize="12sp"
+            android:textColor="#757575" />
+
+        <Button
+            android:id="@+id/btn_task5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/task5_title"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/task5_desc"
+            android:textSize="12sp"
+            android:textColor="#757575" />
+
+    </LinearLayout>
+</ScrollView>
